@@ -1,0 +1,12 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: data.json
+
+note over browser:
+no new GET requests are being made for page elements (/spa, main.css, spa.js), like it was in exercise 0.4. No redirect is being done.
+Server responds with JSON to the POST request. 
+end note
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
